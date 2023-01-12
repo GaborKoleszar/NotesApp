@@ -5,3 +5,27 @@ content-type: application/json
     "title": "My first endpoint note",
     "text": "This is fun"
 }
+
+###
+
+GET http://localhost:5000/api/notes/63bf180aa107eba8cce89e46
+content-type: application/json
+
+{}
+
+###
+
+GET http://localhost:5000/api/notes
+content-type: application/json
+
+{}
+
+###
+
+PATCH http://localhost:5000/api/notes/63bf180aa107eba8cce89e46
+content-type: application/json
+
+{
+    "title": "This is now modified",
+    "text": "This is fun again"
+}
