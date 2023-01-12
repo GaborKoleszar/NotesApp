@@ -22,11 +22,11 @@ content-type: application/json
 
 ###
 
-PATCH http://localhost:5000/api/notes/63bf180aa107eba8cce89e46
+PATCH http://localhost:5000/api/notes/63c048e668b0bc91a8bad5f2
 content-type: application/json
 
 {
-    "title": "This is now modified",
+    "title": "My second note",
     "text": "This is fun again"
 }
 
