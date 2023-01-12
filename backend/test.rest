@@ -29,3 +29,10 @@ content-type: application/json
     "title": "This is now modified",
     "text": "This is fun again"
 }
+
+###
+
+DELETE http://localhost:5000/api/notes/63bf180aa107eba8cce89e46
+content-type: application/json
+
+{}
