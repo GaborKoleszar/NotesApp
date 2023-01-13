@@ -2,8 +2,8 @@ POST http://localhost:5000/api/notes
 content-type: application/json
 
 {
-    "title": "My first endpoint note",
-    "text": "This is fun"
+    "title": "This is a third note",
+    "text": "This is fun xxxx"
 }
 
 ###
