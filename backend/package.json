@@ -2,12 +2,12 @@
     "name": "backend",
     "version": "1.0.0",
     "description": "",
-    "main": "dist/server.js",
+    "main": "api/index.js",
     "engines":{
         "node": "18.x"
     },
     "scripts": {
-        "start": "nodemon src/server.ts",
+        "start": "node api/index.js",
         "lint": "eslint . --ext .ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
