@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "dist/server.js",
+    "engines":{
+        "node": "14.x"
+    },
     "scripts": {
         "start": "nodemon src/server.ts",
         "lint": "eslint . --ext .ts",
