@@ -47,3 +47,32 @@ content-type: application/json
     "email": "florian@test.com",
     "password": "12345"
 }
+
+###
+
+POST http://localhost:5000/api/users/login
+content-type: application/json
+
+{
+    "username": "Florian",
+    "email": "florian@test.com",
+    "password": "12345"
+}
+
+###
+
+GET http://localhost:5000/api/users/
+content-type: application/json
+
+{
+    "username": "Florian",
+    "password": "12345"
+}
+
+###
+
+POST http://localhost:5000/api/users/logout
+content-type: application/json
+
+{
+}
