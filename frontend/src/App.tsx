@@ -59,7 +59,7 @@ function App() {
 
 	return (
 		<Container className={styles.notesPage}>
-			<Button className={`mb-4 ${styleUtils.blockCenter} ${styleUtils.flexCenter}`} onClick={() => setShowAddNoteDialog(true)}>
+			<Button className={`m-4 ${styleUtils.blockCenter} ${styleUtils.flexCenter}`} onClick={() => setShowAddNoteDialog(true)}>
 				<FaPlus />
 				Add new note
 			</Button>
