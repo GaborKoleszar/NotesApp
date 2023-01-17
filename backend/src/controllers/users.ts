@@ -21,7 +21,7 @@ interface SignUpBody {
     username?: string,
     email?: string,
     password?: string,
-};
+}
 
 export const signUp: RequestHandler<unknown, unknown, SignUpBody, unknown> = async (req, res, next) => {
     const username = req.body.username;
@@ -61,7 +61,7 @@ export const signUp: RequestHandler<unknown, unknown, SignUpBody, unknown> = asy
 interface LoginBody {
     username? : string,
     password? : string,
-};
+}
 
 export const login: RequestHandler<unknown, unknown, LoginBody, unknown> = async (req, res, next) => {
     try {
